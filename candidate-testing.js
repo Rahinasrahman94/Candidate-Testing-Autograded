@@ -61,8 +61,9 @@ for (let i = 0; i < questions.length ; i++)
  //console.log(grade);
 if(grade>=80)
 {
-  console.log(">>> Overall Grade:"+grade+"(" + numberofCorrectAnswers +    "of 5 responses correct) <<<");
+  console.log(">>> Overall Grade:"+grade+"("+numberofCorrectAnswers+"of 5 responses correct) <<<");
    console.log(">>> Status: PASSED <<<");
+   
 }
 else{
   console.log(">>> Overall Grade:"+grade+"(" +numberofCorrectAnswers+     "of 5 responses correct) <<<");
