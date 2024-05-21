@@ -52,7 +52,7 @@ for (let i = 0; i < questions.length ; i++)
   
 }
   else{
-    console.log("Question"  +questions[i]+ "InCorrect");
+    console.log("Question "  + (i+1) + ": InCorrect");
   }
 }
   let grade = (numberofCorrectAnswers/numberofQuizQuestions) * 100 ;  //TODO 3.2 use this variable to calculate the candidates score.
