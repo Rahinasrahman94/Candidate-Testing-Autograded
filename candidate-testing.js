@@ -33,8 +33,6 @@ console.log(questions[i]);
 candidateAnswers[i] = input.question("your Answer:");
 console.log(`Correct Answer : ${correctAnswers[i]}`);
 //console.log(`your Answer : ${candidateAnswers[i]}`);
-
-
 }
 }
 
@@ -48,13 +46,13 @@ for (let i = 0; i < questions.length ; i++)
   if(correctAnswers[i].toUpperCase() == candidateAnswers[i].toUpperCase())
   {
 
-    //console.log("Correct");
+    console.log("Question "  + (i+1) + ": Correct");
     numberofCorrectAnswers ++;
     
   
 }
   else{
-    console.log("Wrong Answer")
+    console.log("Question"  +questions[i]+ "InCorrect");
   }
 }
   let grade = (numberofCorrectAnswers/numberofQuizQuestions) * 100 ;  //TODO 3.2 use this variable to calculate the candidates score.
